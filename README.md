@@ -20,7 +20,7 @@ For all the conditions or tasks that were administered to 462 human participants
 - **Free Recall Task:**
   - The prompt asks the model to memorize a set of words and then recall them without any cues.
 
-![Example Prompt for Free Recall Task](image1.png)
+
 
 - **Single Recognition Task:**
   - The prompt asks the model to recognize words from a list, distinguishing between previously studied words and new (foil) words. Each block is tailored for the respective task to test memory retention and recognition.
@@ -60,22 +60,19 @@ For a sample of participants (Subjects 1-5) and all 15 blocks:
 
 - The LLM performed better at recalling words than humans for the selected sample, even after penalizing spelling errors.
 
-![Human Free Recall Results](humans_free_recall.png)  
-![LLaMA Free Recall Results](llama_free_recall.png)
+
 
 ### Cued Recall Task
 
 - The comparison shows similar trends, with LLaMA outperforming humans in accuracy for specific prompts.
 
-![Human Cued Recall Results](humans_cued_recall.png)  
-![LLaMA Cued Recall Results](llama_cued_recall.png)
+
 
 ### Single Recognition Task
 
 Preliminary results indicate that LLaMA’s performance aligns closely with humans, with some discrepancies due to tokenization errors.
 
-![Human Single Recognition Results](humans_single_recognition.png)  
-![LLaMA Single Recognition Results](llama_single_recognition.png)
+
 
 ---
 
@@ -115,9 +112,4 @@ Preliminary results suggest that LLaMA performs comparably to, and in some cases
 ## Acknowledgments
 
 This project was conducted during the winter break as part of an effort to explore LLMs’ memory capabilities. Further developments will be shared in subsequent updates.
-
----
-
-Best Regards,  
-Abhay
 
